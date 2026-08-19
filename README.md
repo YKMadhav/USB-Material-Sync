@@ -20,6 +20,24 @@ with SHA-256 hashing.
 > the user-specified relative path. It never scans the entire USB
 > indiscriminately.
 
+## Why I Built This
+
+This project came from a simple situation I have experienced as a student.
+
+Sometimes lecture notes or study materials are not shared immediately. There can be delays in collecting the material, uploading it, or getting it from the teacher to the students. When exams are approaching, even a small delay can become inconvenient.
+
+I wanted a simple way to make the material available without depending on everyone having to manually copy files or wait for them to be shared digitally.
+
+With **USB-Material-Sync**, the required study material can be placed on a removable drive, and the tool can automatically detect the drive and synchronize the material to the intended location.
+
+The idea is simple:
+
+> **Put the material on the removable drive → connect it → let the tool handle the copying.**
+
+This also makes it useful beyond my original use case. Anyone can prepare a removable drive with the required files and use the tool to quickly transfer the material to a computer without manually navigating through folders and copying everything one by one.
+
+It started as a small solution to a problem I personally encountered, but the same idea can be useful anywhere **materials need to be distributed quickly through a removable drive**.
+
 ## Features
 
 -   Automatic removable-volume detection (Windows, macOS, Linux)
