@@ -1,0 +1,9 @@
+{
+    "destination": "~/Quantum_Materials",
+    "recursive": true,
+    "verify_hash": true,
+    "exit_after_success": true,
+    "poll_interval": 2.0,
+    "copy_entire_directory": false,
+    "detect_fixed_drives": false
+}

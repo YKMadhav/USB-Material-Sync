@@ -1,0 +1,15 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime-generated data
+logs/
+
+# Operating-system metadata
+.DS_Store
+._*
+
+# Locally synced material and user configuration overrides
+Users/
+config.local.json
